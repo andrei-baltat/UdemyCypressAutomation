@@ -17,6 +17,19 @@
   },
   "homepage": "https://github.com/andrei-baltat/UdemyCypressAutomation#readme",
   "devDependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^5.5.0",
+    "eslint-plugin-cypress": "^2.11.2"
+  },
+  "standard": {
+    "env": [
+      "browser",
+      "mocha"
+    ],
+    "globals": [
+      "cy",
+      "Cypress",
+      "expect",
+      "assert"
+    ]
   }
 }
